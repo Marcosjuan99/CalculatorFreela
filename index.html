@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="CALCULEFREELA.png" alt="">
+    </header>
+
+    <main>
+
+        <section class="section_characters">
+
+            <div class="div_section_characters">
+
+                <h1 class="h1_section_characters">Calculadora Freelancer</h1>
+                <p class="p_section_characters"> Você sabe quanto vale a sua hora <br>
+                <p class="p2_section_characters">de trabalho?</p>
+                </p>
+
+
+                <div class="div_button_characters">
+
+                    <button class="button_value_hour">Valor/Hora</button>
+                    <button class="button_value_project">Valor/Projeto</button>
+
+                </div>
+
+            </div>
+
+            <div class="characters">
+
+                <img src="ILUSTRA 1.png" alt="">
+
+            </div>
+
+            <div class="Vector"><img src="Vector.png" alt="logo"></div>
+
+        </section>
+
+        <section class="section_calculate">
+
+            <h1 class="h1_section_calculate">Calcule o seu valor/hora!</h1>
+
+            <div class="all_section_buttons">
+                <div class="month_hour">
+
+                    <div class="month">
+
+                        <p class="p_section_calculate">Quanto você quer ganhar por mês?</p>
+
+                        <div class="div_button_calculate">
+                            <input type="text" class="button_calculate" id="input_month">
+
+                            <div class="div_button_month">
+                                <button class="Button_a_month">Quantidade por mês</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hour">
+
+                        <p class="p_section_calculate">Quantas horas você quer trabalhar por dia?</p>
+
+                        <div class="div_button_calculate">
+
+                            <input type="text" class="button_calculate" id="input_dayWeek">
+
+                            <div class="div_button_month">
+                                <button class="Button_a_month">Horas por dia</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="day-week">
+                    <div class="week">
+                        <p class="p_section_calculate_week">Quantos dias você quer trabalhar por semana?</p>
+
+                        <div class="div_button_calculate_week">
+                            <input type="text" class="button_calculate" id="input_work_hour">
+
+                            <div class="div_button_month">
+                                <button class="Button_a_month">Dias por semana</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="div_card_value_hour">
+
+                    <div class="card_value_hour">
+
+                        <span class="span_card_value">
+
+                            <span class=" p_card_value">O seu novo valor por hora</span>
+
+                            <div class="value-hour">
+                                <span class="h1_card_value" id="value_Card"> R$0,00</span>
+                                <span class="span_hour">/hora</span>
+
+                            </div>
+                        </span>
+                        <div class="description_card_value">
+                            <span>Salário bruto</span>
+                            <span id="salary_bruto">R$ 0,00</span>
+                        </div>
+                        <div class="descripion_bottom_card_value">
+                            <span>Carga horária semanal</span>
+                            <div class="week_hour"><span id="hour_card">0</div><span>horas</span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="div_button_calcular">
+                <button class="button_calcular" onclick="calc()">Calcular</button>
+            </div>
+        </section>
+
+        <section class="section_bottom_calculate">
+
+            <h1 class="h1_section_calculate">Quer calcular o valor de um projeto?</h1>
+
+            <div class="all_section_buttons">
+                <div class="month_hour">
+
+                    <div class="month">
+
+                        <p class="p_section_calculate">Quanto você ganha por hora?</p>
+
+                        <div class="div_button_calculate">
+                            <input type="text" class="button_calculate" id="value_per_hour">
+
+                            <div class="div_button_month">
+                                <button class="Button_a_month">Seu valor/hora</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hour">
+
+                        <p class="p_section_calculate">Quantos dias irá durar o projeto?</p>
+
+                        <div class="div_button_calculate">
+
+                            <input type="text" class="button_calculate" id="quantity_days">
+
+                            <div class="div_button_month">
+                                <button class="Button_a_month">Dias</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="week_year">
+                    <div class="week">
+                        <p class="p_section_calculate_week">Quantas horas irá trabalhar no projeto por dia?
+                        <p>
+
+                        <div class="div_button_calculate_week">
+                            <input type="text" class="button_calculate" id="hour_duration">
+
+                            <div class="div_button_month">
+                                <button class="Button_a_month">Horas por dia</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="div_card_value_hour">
+
+                    <div class="card_value_hour">
+
+                        <span class="span_card_value">
+
+                            <span class="p_card_value">Valor total do projeto</span>
+                            <div>
+                                <span class="h1_card_value">
+                                    <span id="value_card_two">R$0,00</span>
+
+                                </span>
+                            </div>
+
+                        </span>
+                        <div class="description_card_value">
+                            <span>Seu valor/hora</span>
+                            <span id="value_hour_card_two">R$ 0,00</span>
+                        </div>
+                        <div class="descripion_bottom_card_value">
+                            <span>Horas por dia</span>
+                            <div class="hour_day"><span id="hour_card_two">0</div><span>horas</span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="div_button_calcular">
+                <button class="button_calcular_bottom" onclick="calculate()">Calcular</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <img src="LOGO.png" alt="">
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

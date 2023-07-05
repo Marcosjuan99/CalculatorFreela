@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    height: 90px;
+    align-items: center;
+    padding-left: 100px;
+    background-color: #FFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_characters {
+    display: flex;
+    width: 100%;
+    height: 449px;
+    background-image: linear-gradient(to left, #00FFF0, #0568DF, #0652DD);
+}
+
+.div_section_characters {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 95px;
+}
+
+.h1_section_characters {
+    color: #FFF;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+
+}
+
+.p_section_characters {
+    color: #FFF;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p2_section_characters {
+    color: #FFF;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.div_button_characters {
+    display: flex;
+    gap: 8px;
+}
+
+.button_value_hour {
+    width: 187px;
+    height: 45.671px;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    color: #1394FF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+
+}
+
+.button_value_project {
+    width: 187px;
+    height: 45.671px;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    color: #1394FF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+
+}
+
+.characters {
+    padding-top: 38px;
+}
+
+.Vector {
+    margin-top: 417px;
+}
+
+.section_calculate {
+
+    flex-direction: column;
+}
+
+.all_section_buttons {
+    display: flex;
+
+}
+
+
+
+.h1_section_calculate {
+    padding-top: 92px;
+    padding-left: 95px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.div_button_calculate {
+    display: flex;
+    padding-left: 95px;
+    padding-top: 2px;
+
+}
+
+.div_button_calculate_week {
+    display: flex;
+    padding-left: 32px;
+    padding-top: 2px;
+}
+
+.div_button_calculate_year {
+    display: flex;
+    padding-left: 32px;
+    padding-top: 2px;
+}
+
+.p_section_calculate {
+    padding-left: 95px;
+    padding-top: 36px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p_section_calculate_week {
+    padding-left: 32px;
+    padding-top: 36px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p_section_calculate_year {
+    padding-left: 32px;
+    padding-top: 36px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+.div_button_month {
+    display: flex;
+
+
+}
+
+.button_calculate {
+    width: 141px;
+    height: 34.3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0px 0px 8px;
+    border: 1.5px solid #898989;
+    outline: 0;
+
+
+}
+
+.Button_a_month {
+    width: 163px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #898989;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.card_value_hour {
+    display: flex;
+    width: 398px;
+    height: 148px;
+    margin-top: 44px;
+    margin-left: 37.5px;
+    border-radius: 13px;
+    background: linear-gradient(216deg, #0652DD 16.73%, #53B1FF 99.79%);
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.p_card_value {
+    padding-top: 11px;
+    justify-content: center;
+    display: flex;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h1_card_value {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+#value_card {
+    color: #FFF;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.span_hour {
+    padding-top: 25px;
+    justify-content: center;
+    display: flex;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description_card_value {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-bottom: 5px;
+
+}
+
+.descripion_bottom_card_value {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-bottom: 6px;
+
+}
+
+.div_button_calcular {
+    padding-top: 33px;
+    padding-left: 95px;
+}
+
+.button_calcular {
+    display: flex;
+    height: 36px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #80ADFF;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.button_calcular_bottom {
+    display: flex;
+    height: 36px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #80ADFF;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 31px;
+}
+
+
+.week_hour {
+    padding-left: 164px;
+}
+
+.hour_day {
+    padding-left: 204px;
+}
+
+.value-hour {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background: #0652DD;
+}
